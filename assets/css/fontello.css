@@ -1,0 +1,172 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?11284150');
+  src: url('../fonts/fontello.eot?11284150#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff2?11284150') format('woff2'),
+       url('../fonts/fontello.woff?11284150') format('woff'),
+       url('../fonts/fontello.ttf?11284150') format('truetype'),
+       url('../fonts/fontello.svg?11284150#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+ [class^="fontello-"]:before, [class*=" fontello-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+ 
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+ 
+ 
+  /* you can be more comfortable with increased fontellos size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.fontello-letter:before { content: '\e800'; } /* '' */
+.fontello-big-star:before { content: '\e801'; } /* '' */
+.fontello-big-web-home:before { content: '\e802'; } /* '' */
+.fontello-blank-calendar:before { content: '\e804'; } /* '' */
+.fontello-circular-check-button:before { content: '\e808'; } /* '' */
+.fontello-clothes-label:before { content: '\e809'; } /* '' */
+.fontello-comment-bubble:before { content: '\e80a'; } /* '' */
+.fontello-down-arrow-inside-circle:before { content: '\e80e'; } /* '' */
+.fontello-folded-sheet:before { content: '\e810'; } /* '' */
+.fontello-inclined-bell:before { content: '\e811'; } /* '' */
+.fontello-inclined-pin:before { content: '\e812'; } /* '' */
+.fontello-inclined-push-pin:before { content: '\e813'; } /* '' */
+.fontello-landscape-picture:before { content: '\e815'; } /* '' */
+.fontello-left-arrow-on-circle:before { content: '\e816'; } /* '' */
+.fontello-menu-circular-button:before { content: '\e817'; } /* '' */
+.fontello-menu-round-button:before { content: '\e818'; } /* '' */
+.fontello-militar-medal:before { content: '\e819'; } /* '' */
+.fontello-minus-round-button:before { content: '\e81a'; } /* '' */
+.fontello-msn-user-avatar:before { content: '\e81d'; } /* '' */
+.fontello-new-message-envelope:before { content: '\e81e'; } /* '' */
+.fontello-new-text-message:before { content: '\e81f'; } /* '' */
+.fontello-notebook-with-rings:before { content: '\e820'; } /* '' */
+.fontello-old-round-clock:before { content: '\e822'; } /* '' */
+.fontello-open-document:before { content: '\e823'; } /* '' */
+.fontello-paper-aeroplane-flying:before { content: '\e824'; } /* '' */
+.fontello-passion-heart:before { content: '\e825'; } /* '' */
+.fontello-photo-len:before { content: '\e826'; } /* '' */
+.fontello-right-arrow-on-circle:before { content: '\e82a'; } /* '' */
+.fontello-sharing-big-symbol:before { content: '\e82d'; } /* '' */
+.fontello-sniper-target:before { content: '\e82e'; } /* '' */
+.fontello-two-speech-bubbles:before { content: '\e833'; } /* '' */
+.fontello-two-users:before { content: '\e834'; } /* '' */
+.fontello-up-arrow-inside-a-circle:before { content: '\e835'; } /* '' */
+.fontello-video-camera:before { content: '\e836'; } /* '' */
+.fontello-writing-on-a-paper:before { content: '\e838'; } /* '' */
+.fontello-writing-on-chat:before { content: '\e839'; } /* '' */
+.fontello-bar-graph-progress:before { content: '\e83d'; } /* '' */
+.fontello-big-cogwheel:before { content: '\e83f'; } /* '' */
+.fontello-big-id-card:before { content: '\e842'; } /* '' */
+.fontello-big-link:before { content: '\e843'; } /* '' */
+.fontello-big-map-locator:before { content: '\e845'; } /* '' */
+.fontello-big-plus-button:before { content: '\e849'; } /* '' */
+.fontello-big-search-engine:before { content: '\e84c'; } /* '' */
+.fontello-time-passing:before { content: '\e84d'; } /* '' */
+.fontello-avatar:before { content: '\e84e'; } /* '' */
+.fontello-calculator:before { content: '\e84f'; } /* '' */
+.fontello-guarantee:before { content: '\e850'; } /* '' */
+.fontello-list:before { content: '\e851'; } /* '' */
+.fontello-phone-call:before { content: '\e852'; } /* '' */
+.fontello-price-tag:before { content: '\e853'; } /* '' */
+.fontello-question:before { content: '\e854'; } /* '' */
+.fontello-questions-circular-button:before { content: '\e855'; } /* '' */
+.fontello-street-map:before { content: '\e856'; } /* '' */
+.fontello-toothbrush:before { content: '\e857'; } /* '' */
+.fontello-vacuum-cleaner:before { content: '\e858'; } /* '' */
+.fontello-vacuum-cleaner-1:before { content: '\e859'; } /* '' */
+.fontello-washing-machine:before { content: '\e85a'; } /* '' */
+.fontello-laptop:before { content: '\E801'; } /* '' */
+.fontello-air-conditioning:before { content: '\e85b'; } /* '' */
+.fontello-alarm-clock:before { content: '\e85c'; } /* '' */
+.fontello-blender:before { content: '\e85d'; } /* '' */
+.fontello-blender-1:before { content: '\e85e'; } /* '' */
+.fontello-blender-2:before { content: '\e85f'; } /* '' */
+.fontello-coffee-maker:before { content: '\e860'; } /* '' */
+.fontello-curler:before { content: '\e861'; } /* '' */
+.fontello-dishwasher:before { content: '\e862'; } /* '' */
+.fontello-epilator:before { content: '\e863'; } /* '' */
+.fontello-extractor:before { content: '\e864'; } /* '' */
+.fontello-fan:before { content: '\e865'; } /* '' */
+.fontello-food-steamer:before { content: '\e866'; } /* '' */
+.fontello-fridge:before { content: '\e867'; } /* '' */
+.fontello-hair-clipper:before { content: '\e868'; } /* '' */
+.fontello-hairdryer:before { content: '\e869'; } /* '' */
+.fontello-iron:before { content: '\e86a'; } /* '' */
+.fontello-juicer:before { content: '\e86b'; } /* '' */
+.fontello-kettle:before { content: '\e86c'; } /* '' */
+.fontello-lamp:before { content: '\e86d'; } /* '' */
+.fontello-meat-grinder:before { content: '\e86e'; } /* '' */
+.fontello-microwave-oven:before { content: '\e86f'; } /* '' */
+.fontello-mixer:before { content: '\e870'; } /* '' */
+.fontello-mixer-1:before { content: '\e871'; } /* '' */
+.fontello-multicooker:before { content: '\e872'; } /* '' */
+.fontello-music-player:before { content: '\e873'; } /* '' */
+.fontello-music-speaker:before { content: '\e874'; } /* '' */
+.fontello-oven:before { content: '\e875'; } /* '' */
+.fontello-photo-camera:before { content: '\e876'; } /* '' */
+.fontello-printer:before { content: '\e877'; } /* '' */
+.fontello-refrigerator:before { content: '\e878'; } /* '' */
+.fontello-sewing-machine:before { content: '\e879'; } /* '' */
+.fontello-shaver:before { content: '\e87a'; } /* '' */
+.fontello-stove:before { content: '\e87b'; } /* '' */
+.fontello-telephone:before { content: '\e87c'; } /* '' */
+.fontello-television:before { content: '\e87d'; } /* '' */
+.fontello-toaster:before { content: '\e87e'; } /* '' */
+.fontello-next-1:before { content: '\e880'; } /* '' */
+.fontello-paper-plane:before { content: '\e882'; } /* '' */
+.fontello-phone-call-1:before { content: '\e883'; } /* '' */
+.fontello-placeholder:before { content: '\e887'; } /* '' */
+.fontello-settings:before { content: '\e88a'; } /* '' */
+.fontello-shopping-bag:before { content: '\e88d'; } /* '' */
+.fontello-shopping-cart:before { content: '\e88e'; } /* '' */
+.fontello-shuffle:before { content: '\e88f'; } /* '' */
+.fontello-speaker:before { content: '\e890'; } /* '' */
+.fontello-star:before { content: '\e891'; } /* '' */
+.fontello-tag:before { content: '\e892'; } /* '' */
+.fontello-vector:before { content: '\e895'; } /* '' */
+.fontello-avatar-1:before { content: '\e896'; } /* '' */
+.fontello-avatar-2:before { content: '\e897'; } /* '' */
+.fontello-back:before { content: '\e898'; } /* '' */
+.fontello-book:before { content: '\e899'; } /* '' */
+.fontello-cancel:before { content: '\e89a'; } /* '' */
+.fontello-chat:before { content: '\e89b'; } /* '' */
+.fontello-chat-1:before { content: '\e89c'; } /* '' */
+.fontello-chat-2:before { content: '\e89d'; } /* '' */
+.fontello-copy:before { content: '\e89e'; } /* '' */
+.fontello-dislike:before { content: '\e89f'; } /* '' */
+.fontello-edit:before { content: '\e8a2'; } /* '' */
+.fontello-envelope:before { content: '\e8a3'; } /* '' */
+.fontello-heart:before { content: '\e8a9'; } /* '' */
+.fontello-house:before { content: '\e8aa'; } /* '' */
+.fontello-like:before { content: '\e8ab'; } /* '' */
+.fontello-magnifying-glass:before { content: '\e8ae'; } /* '' */
+.fontello-check-mark:before { content: '\e8b1'; } /* '' */
+.fontello-check:before { content: '\e8b2'; } /* '' */
+.fontello-checked:before { content: '\e8b3'; } /* '' */
+.fontello-me:before { content: '\e83e'; } /* '' */
