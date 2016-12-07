@@ -4,16 +4,16 @@
 General css class
 -----------------------------------*/
 body{font-size: 15px; -webkit-font-smoothing: antialiased; font-family: 'Ubuntu', sans-serif;
- line-height: 1.4; color:#7d7d7d; background-color: #f6f6f6;}
+ line-height: 1.1; color:#7d7d7d; background-color: #f6f6f6;}
 h1,h2,h3,h4,h5,h6{margin:0px 0px 20px 0px; color: #353938; font-family: 'Ubuntu', sans-serif;}
-h1 {font-size: 32px; line-height: 42px;}
+h1 {font-size: 28px; line-height: 42px;}
 h2 {font-size: 24px;}
 h3 {font-size: 22px;line-height: 32px;}
 h4 {font-size: 18px;}
 p {margin: 0 0 20px;line-height: 1.6;}
 ul, ol {}
 ul li, ol li {}
-a {color: #f9962b; text-decoration: none; -webkit-transition: all 0.3s; -moz-transition: all 0.3s;
+a {color: #25aae1; text-decoration: none; -webkit-transition: all 0.3s; -moz-transition: all 0.3s;
  transition: all 0.3s;}
 a:focus, a:hover {text-decoration: none; color: #25aae1;}
 strong{ font-weight: 600; color:#353938;}
@@ -118,7 +118,7 @@ Padding space
 .section-space20{padding-top: 20px;padding-bottom: 20px;}
 .section-space40{padding-top: 40px;padding-bottom: 40px;}
 .section-space60{padding-top: 60px;padding-bottom: 60px;}
-.section-space80{padding-top: 80px;padding-bottom: 80px;}
+.section-space80{padding-top: 40px;padding-bottom: 60px;}
 .section-space100{padding-top: 100px;padding-bottom: 100px;}
 .section-space120{padding-top: 100px;padding-bottom: 120px;}
 .section-space-top80{padding-top: 80px;}
@@ -440,8 +440,8 @@ padding: 10px 15px; margin-bottom: 5px; background-color: #21c58d; border: 0px s
 	}
 	
 .slider-captions {position: absolute;  top: 100px; padding: 30px;}
-.slider-title{color: #fff;font-size: 42px; font-weight: 500; text-transform: capitalize; line-height: 42px;}
-.slider-text{color: #fff; font-size: 16px;} 
+.slider-title{color: #fff;font-size: 34px; font-weight: 500; text-transform: capitalize; line-height: 42px;}
+.slider-text{color: #fff; font-size: 18px;}
 .slider .item img{width:100%;}  
 
 
@@ -474,7 +474,7 @@ right: 10px; overflow: hidden; text-indent: 100%; white-space: nowrap; visibilit
 .counter-block{background-color: #fafafa;  }
 .counter-block:hover{background-color: #fff;    transition: all 0.2s ease-in-out 0s;}
 .counter-icon{color: #bfc3c2;}
-.counter-title{font-size: 34px;}
+.counter-title{font-size: 26px;}
 
 /*-----Testimonial-----*/
 
@@ -508,8 +508,10 @@ transition: all 0.2s ease-in-out 0s;
 .brand-logo:hover{   -webkit-box-shadow: 0px 3px 3px 3px rgba(234,234,234,1);
 -moz-box-shadow: 0px 3px 3px 3px rgba(234,234,234,1); box-shadow: 0px 3px 3px 3px rgba(234,234,234,1); transition: all 0.2s ease-in-out 0s;
      position: relative; z-index: 9;}
+/*
 .brand-logo img { filter: grayscale(100%); -webkit-filter: grayscale(100%); filter: gray; 
   -webkit-transition: all .6s ease; }
+  */
 .brand-logo img:hover {    filter: grayscale(0%); -webkit-filter: grayscale(0%); filter: none; }
 .image-overlay { display: none !important; }
 
@@ -820,7 +822,7 @@ letter-spacing: -8px; text-transform: uppercase;}
 @media screen and (max-width: 1366;) {
 
 .slider-captions {position: absolute;  width: 85%; bottom: 100px; padding: 30px;}
-.slider-text{font-size: 12px; display: none;} 
+.slider-text{font-size: 18px; display: none;}
 } 
 
 @media (max-width: 320px) {}
@@ -835,7 +837,7 @@ letter-spacing: -8px; text-transform: uppercase;}
 .page-title{font-size: 22px; }
 
 .slider-captions {position: absolute; width: 65%; bottom: 10px; padding: 5px;}
-.slider-title{font-size: 12px; font-weight: 500; line-height: 15px; margin-bottom: 10px;}
+.slider-title{font-size: 9px; font-weight: 300; line-height: 15px; margin-bottom: 10px;}
 .slider .owl-pagination{bottom: 25px;}
 .childern{padding-left: 0px;}
 .discount {font-size: 50px;}
@@ -845,8 +847,8 @@ letter-spacing: -8px; text-transform: uppercase;}
 @media (min-width: 768px) and (max-width: 1024px) { 
 #navigation > ul > li > a{padding: 15px;}
 .slider-captions{bottom: 60px;}
-.slider-text{font-size: 14px;}
-.slider-title {color: #fff; font-size: 18px; font-weight: 600; text-transform: uppercase; line-height: 19px;
+.slider-text{font-size: 18px;}
+.slider-title {color: #fff; font-size: 12px; font-weight: 600; text-transform: uppercase; line-height: 19px;
   margin-bottom: 10px;}
 }
 
