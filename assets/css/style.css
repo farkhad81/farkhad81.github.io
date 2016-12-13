@@ -427,8 +427,8 @@ padding: 10px 15px; margin-bottom: 5px; background-color: #21c58d; border: 0px s
    width: 100% !important;
    height: auto !important;
    z-index: -1; 
-  top: 50%;
-  transform: translateY(-55%);   
+   top: 50%;
+   transform: translateY(-55%);
    background: url(../images/slider-1.jpg) no-repeat; background-size: cover; 
  
  }
@@ -823,7 +823,7 @@ letter-spacing: -8px; text-transform: uppercase;}
 
 .slider-captions {position: absolute;  width: 85%; bottom: 100px; padding: 30px;}
 .slider-text{font-size: 18px; display: none;}
-} 
+}
 
 @media (max-width: 320px) {}
 
